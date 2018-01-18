@@ -1,0 +1,35 @@
+doctype
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title API Star Wars
+        link(rel="stylesheet", href="css/main.css")
+        link(href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet")
+    body
+        h1 Consumiendo API Star Wars
+        .containerButtons
+            h3 ¿Qué quieres ver?
+            .containerButton
+                button#films.button(value="Peliculas") Peliculas
+            .containerButton
+                button#person.button(value="Personajes") Personajes
+            .containerButton
+                button#planet.button(value="Planetas") Planetas
+            .containerButton
+                button#especies.button(value="Especies") Especies
+            .containerButton
+                button#starships.button(value="Naves") Naves
+            .containerButton
+                button#vehiculos.button(value="Vehiculos") Vehiculos
+
+        #containerImg.visible
+            img(src="img/star-wars-characters.jpg", alt="Imagen de StarWars")
+
+            //- Contenedor
+        #container.container
+        //- script(src="js/personajes.js")
+        //- script(src="js/planetas.js")
+        script(src="https://code.jquery.com/jquery-3.2.1.js")
+        script(src="js/main.js")

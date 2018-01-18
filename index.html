@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API Star Wars</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Consumiendo API Star Wars</h1>
+    <div class="containerButtons">
+      <h3>¿Qué quieres ver?</h3>
+      <div class="containerButton">
+        <button class="button" id="films" value="Peliculas">Peliculas</button>
+      </div>
+      <div class="containerButton">
+        <button class="button" id="person" value="Personajes">Personajes</button>
+      </div>
+      <div class="containerButton">
+        <button class="button" id="planet" value="Planetas">Planetas</button>
+      </div>
+      <div class="containerButton">
+        <button class="button" id="especies" value="Especies">Especies</button>
+      </div>
+      <div class="containerButton">
+        <button class="button" id="starships" value="Naves">Naves</button>
+      </div>
+      <div class="containerButton">
+        <button class="button" id="vehiculos" value="Vehiculos">Vehiculos</button>
+      </div>
+    </div>
+    <div class="visible" id="containerImg"><img src="img/star-wars-characters.jpg" alt="Imagen de StarWars"></div>
+    <div class="container" id="container"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
